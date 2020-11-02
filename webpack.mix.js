@@ -57,8 +57,8 @@ mix
  * Copy, minify and version signature-pad.css
  */
 mix
-    .copy('./resources/assets/css/signature-pad.css', './public/css/dist')
-    .minify('./public/css/build/signature-pad.css');
+    .copy('./resources/assets/css/signature-pad.css', './public/css/signature-pad.css')
+    .minify('./public/css/signature-pad.css');
 
 // Combine main SnipeIT JS files
 mix.js(
